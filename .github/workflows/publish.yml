@@ -1,4 +1,4 @@
-name: Publicar Release
+name: Publish Release
 on: [workflow_dispatch]
 
 jobs:
@@ -18,6 +18,6 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body_path: ./dist/NOTAS_VERSAO.md
+          body_path: dist/NOTAS_VERSAO.md
           draft: true
           prerelease: true
