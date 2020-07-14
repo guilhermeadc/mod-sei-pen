@@ -22,5 +22,5 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           body_path: dist/NOTAS_VERSAO.md
-          draft: true
+          draft: false
           prerelease: true
