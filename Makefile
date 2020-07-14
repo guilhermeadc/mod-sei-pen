@@ -39,7 +39,7 @@ build:
 	@rm -rf $(SEI_MODULO_DIR)/config
 	@rm -rf $(SEI_MODULO_DIR)/scripts
 	@rm -rf $(SEI_MODULO_DIR)/bin
-	@cd dist/ && zip -r $(PEN_MODULO_COMPACTADO) INSTALACAO.md ATUALIZACAO.md NOTAS_VERSAO.md sei/ sip/	
+	@cd dist/ && zip -r $(PEN_MODULO_COMPACTADO) INSTALACAO.md ATUALIZACAO.md sei/ sip/	
 	@rm -rf dist/sei dist/sip dist/INSTALACAO.md dist/ATUALIZACAO.md dist/NOTAS_VERSAO.md
 	@echo "Construção do pacote de distribuição finalizada com sucesso"
 
